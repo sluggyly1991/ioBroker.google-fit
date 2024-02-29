@@ -1,0 +1,49 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "google-fit",
+	"title": "Google Fit",
+	"description": "Get your fit data from google.",
+	"keywords": [
+		"Google Fit",
+		"Health",
+		"Steps"
+	],
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "health",
+	"startMode": "schedule",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"scheduleStartOnChange": "yes",
+	"adapterSettings": [
+		{
+			"key": "token",
+			"label": "API Token",
+			"inputType": "text",
+			"defaultValue": ""
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "Sebastian Siepmann",
+	"authorGithub": "sluggyly1991",
+	"authorEmail": "sebastiansiepmann91@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
